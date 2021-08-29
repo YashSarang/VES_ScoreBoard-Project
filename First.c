@@ -5,13 +5,42 @@
 #include<stdio.h>
 #include<conio.h>
 
+
+//STRUCTURES
+struct students
+{
+    char Name[20];
+    int RollNo;
+    char Div[5];
+    struct subject
+    {
+        char name[20];
+        int marks;
+    }sub[5];
+}student;
+
+struct teachers
+{
+    char Name[20];
+    char UserID[10];
+    char Password[10];
+    char Department[5];
+}teacher;
+
 struct classroom
 {
     char Division[5];
     int students;
-    //struct student[students]
+    //struct student[students]          {Nested structure to store all the info of students}
 };
-void main()
+
+//Functions
+/*
+void input()
+{                   development in progress
+}
+*/
+void main()                         //basic working code as of now, will be updated later
 {
     int classes,i,j;
     printf("\nEnter the number of classes : ");
