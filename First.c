@@ -1,4 +1,7 @@
 /*Write an application which helps teachers in VESIT in efficiently and easily releasing IA scores to the students of respective class / course.*/
+/*The Code isn't complete yet, I will keep it updating in the future*/
+
+
 #include<stdio.h>
 #include<conio.h>
 
