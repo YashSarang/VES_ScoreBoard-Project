@@ -42,6 +42,8 @@ void input()
 */
 void main()                         //basic working code as of now, will be updated later
 {
+    clrscr();
+    printf("Welcome to VES_ScoreBoard");
     int classes,i,j;
     printf("\nEnter the number of classes : ");
     scanf("%d",&classes);
